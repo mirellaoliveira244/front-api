@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="https://introducao-api-delta.vercel.app/login/" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+        <br>
+        <button type="submit" id="enviarLogin">Entrar</button>
+        <br>
+        <span id="msg" class=""></span>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+</html>
