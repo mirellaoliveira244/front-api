@@ -30,6 +30,7 @@ async function autenticar(e) {
         'Content-Type': 'application/json' // Define que o conteúdo enviado será em formato JSON
       },
       body: JSON.stringify(dados) // Converte o objeto "dados" para JSON antes de enviar
+      
     });
 
     // Se a resposta da API não for bem-sucedida, lança um erro
