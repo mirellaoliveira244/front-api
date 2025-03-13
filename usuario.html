@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <style>
+    #conteudo-protegido {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="loading-overlay">Carregando...</div>
+  <div id="conteudo-protegido">
+    <h1>Área Restrita</h1>
+    <h2>Ver Usuário</h2>
+    <a href="home.html">Início</a>
+    <br><br>
+    <div id="info-usuario">
+      <h3 id="nome">Nome</h3>
+      Id: <span id="id"></span> <br>
+      Email: <span id="email"></span> <br>
+      Senha: <span id="senha"></span> <br>
+    </div>
+  </div>
+</body>
+<script type="module" src="js/usuario.js"></script>
+</html>
