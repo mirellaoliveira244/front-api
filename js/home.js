@@ -22,7 +22,7 @@ import { verificarAutenticacao } from './autorizar.js';
   } 
 })();
 
-const urlBase = "URL_DO_SEU_BACK_END";
+const urlBase = "https://introducao-api-delta.vercel.app";
 
 const tabelaCorpo = document.getElementById("tabela-usuarios");
 tabelaCorpo.innerHTML = 'Aguarde...';
